@@ -1,0 +1,53 @@
+/*   Valores Globales   */
+@font-face {
+    font-family: 'Principal';
+    src: url(arc/FiraSans-Regular.ttf);
+}
+*{
+    font-family: 'Principal';
+}
+body{
+    background: url(img/Background.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 100, 10);
+}
+
+
+
+
+
+/*   Modificando El Main   */
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 0 0 5px #000000;
+}
+.main__h1{
+    padding: 30px;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+
+
+
+/*   Modificando Footer   */
+.footer{
+    line-height: 2.5;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
